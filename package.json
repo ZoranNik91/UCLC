@@ -1,0 +1,28 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "Cypress automation for UCLC project",
+  "main": "index.js",
+  "scripts": {
+    "cy": "npx cypress run",
+    "cyp": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoranNik91/UCLC_cypress.git"
+  },
+  "author": "Zoran Nikolić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoranNik91/UCLC_cypress/issues"
+  },
+  "homepage": "https://github.com/ZoranNik91/UCLC_cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-xpath": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {}
+}
