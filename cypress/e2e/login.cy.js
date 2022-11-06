@@ -4,7 +4,7 @@ describe('Go to UCLC website', () => {
     cy.CookieUCLC();
   })
 })
-  
+/*   
   // cy.get('button').contains('Prihvaćam sve').click().wait(2000)  // Acept Cookies
 describe('Login', () => {
   it('passes', () =>{
@@ -63,11 +63,10 @@ describe('Dashboard icons check:', () => {
     })
 
     // _______ Vidi sa developeri u vezi sigurnosnog odjavljivanja ________
-   /* describe('7. ODJAVA', () => {
-     it('passes', () =>{
-      cy.CookieUCLC()
-      cy.get('button').contains('Odjava').click()
-    })
-   }) */
-  
-})
+   //describe('7. ODJAVA', () => {
+   //  it('passes', () =>{
+   //   cy.CookieUCLC()
+   //   cy.get('button').contains('Odjava').click()
+   // })
+   //})
+  }) */

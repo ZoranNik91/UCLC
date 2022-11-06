@@ -5,7 +5,7 @@ describe('Go to UCLC', () => {
     })
   })
   
-describe('Registration', () => {
+/* describe('Registration', () => {
    it('passes', () =>{
       cy.CookieUCLC();
       cy.get('button').contains('Registriraj se').click()  // Click on Registration
@@ -35,4 +35,4 @@ describe('Registracija', () => {
   })
   // npx cypress run 'cypress/e2e/*.cy.js'
   // npx cypress run --spec 'cypress/e2e/registration.cy.js'
-  // npx cypress open
+  // npx cypress open */
