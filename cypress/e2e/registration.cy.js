@@ -1,6 +1,6 @@
 describe('Go to UCLC', () => {
     it('passes', () => {
-      cy.visit('https://app-dev.uclc.hr:8080/')
+      cy.visit('https://google.com') // 'https://app-dev.uclc.hr:8080/'
       cy.CookieUCLC(); // accept Cookies, [Zm]
     })
   })
