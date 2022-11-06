@@ -1,10 +1,10 @@
 describe('Go to UCLC website', () => {
   it('passes', () => {
-    cy.visit('https://google.com') // 'https://app-dev.uclc.hr:8080/' //go to UCLC web-app
+    cy.visit('https://app-dev.uclc.hr:8080') //go to UCLC web-app
     //cy.CookieUCLC();
   })
 })
-/*   
+  
   // cy.get('button').contains('Prihvaćam sve').click().wait(2000)  // Acept Cookies
 describe('Login', () => {
   it('passes', () =>{
@@ -69,4 +69,4 @@ describe('Dashboard icons check:', () => {
    //   cy.get('button').contains('Odjava').click()
    // })
    //})
-  }) */
+  })
