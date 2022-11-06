@@ -20,5 +20,5 @@ jobs:
     - name: Cypress run
       uses: cypress-io/github-action@v3
       with:
-        build: npm run build
+        # build: npm run build <- error: /opt/hostedtoolcache/node/14.20.1/x64/bin/npm run build
         start: npm run cy # run cypress in headless mode = npx run cypress
